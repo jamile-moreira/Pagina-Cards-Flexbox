@@ -1,44 +1,47 @@
-![](https://i.imgur.com/xG74tOh.png)
+🎉 **Bem-vindo ao meu humilde projeto** 🚀
 
-# Layout Flex Box
+Este projeto é um exemplo interativo para demonstrar o uso de HTML e CSS! Aqui você encontrará informações sobre o projeto, as ferramentas utilizadas e instruções sobre como executá-lo em seu ambiente local.
 
-O figma do projeto encontra-se nesse link: 
-https://www.figma.com/file/VlzhaRzIJn63b8Ljrqi7iC/Pr%C3%A1tica-com-Flexbox?node-id=0%3A1
+## ℹ️ Sobre o Projeto
 
+O **Adote um amigo** é uma aplicação web simples e ficticia, cuja a finalidade é mostrar os conhecimentos que tenho e claro, acompanhar minha evolução. Essa página foi desenvolvida com as seguintes tecnologias:
 
-Esse é um mini desafio, ou seja, você precisará aplicar os conhecimentos obtidos até aqui para conseguir resolve-lo.
+- Front-end: HTML e CSS
 
+## 🚀 Executando o Projeto
 
-Trata-se de uma aplicação (site) que chamaremos de **Friendly Book**, para te ajudar a descobrir, tamanhos, cores, formatos, posições, etc. você irá usar o **figma**, por isso é importanto você assistir aos vídeos de orientação para o desafio.
+Siga as instruções abaixo para executar o projeto em seu ambiente local:
 
+1. **Clone o repositório:**
 
-Nesse repositório já temos todas as imagens que são necessárias para ciar o site, tais como:
-- Logo
-- Imagens de perfil de cada usuário
+   ```
+   git clone https://git@github.com:jamile-moreira/Pagina-Cards-Flexbox.git
+   ```
 
+2. **Navegue até o diretório do projeto:**
 
-Veja abaixo o layout que precisa ser desenvolvido:
-![](https://i.imgur.com/gWPGZ0q.png)
+   ```
+   cd Pagina-Cards-Flexbox
+   ```
 
+3.   **Abra o seu navegador:**
 
-#### Qualquer dúvida você deve consultar o vídeo explicativo!
+   ```
+   Execute o projeto no seu editor de código
+   ```
 
-  
----
+   Agora você pode navegar pela aplicação! Há um menu interativo do lado esquerdo e um menu no final da página, onde é possível voltar ao conteúdo, caso necessário. Só lemrando que essa é uma página ficcticia, então não há conteúdo informativo, apenas demostrativo. 
 
-No exercício será necessário:
+## 📝 Contribuição
 
-- Definir o elemento pai
-- Definir os elementos filhos
-- Ajustar a posição dos filhos
-- Definir características aos filhos
-- Definir características a um unico filho
----
-   
-Preencha a checklist para finalizar o exercício:
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
+Se você deseja contribuir com melhorias para o projeto, siga as etapas abaixo:
 
-###### tags: `módulo 1` `front-end` `HTML`
+1. Faça um fork do repositório e clone-o em sua máquina.
+2. Crie uma nova branch para suas modificações.
+3. Faça as alterações necessárias e adicione-as ao stage.
+4. Envie um pull request para que suas modificações sejam revisadas.
+
+Ficarei feliz em receber suas contribuições!
+
+✨ Divirta-se explorando e personalizando o Projeto de Exemplo! Se tiver alguma dúvida ou precisar de suporte, fique à vontade para entrar em contato. Aproveite! ✨
+
