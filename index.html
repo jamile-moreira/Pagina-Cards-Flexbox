@@ -1,51 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Lobster&family=Mulish:ital,wght@0,200;0,400;0,700;1,600&family=PT+Sans:ital,wght@0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Site com Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Lobster&family=Mulish:ital,wght@0,200;0,400;0,700;1,600&family=PT+Sans:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
-	<title>Site com Flexbox</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <div class="sidebar">
+      <div class="top-area">
+        <img src="assets/logo.png" alt="logo" />
+        <div class="horizontal-line"></div>
+      </div>
 
-<body>
-	<div class="box">
-	<aside>
-		<div>
-		<img src="assets/logo.svg" alt="logo marca da empresa">
-		<div class="linha">
-		</div>
-		</div>
-		<div class="botao">
-			<span>SAIR</span>
-		</div>
-	</aside>
-	
-	<main class="container">
-	<header>
-		<h1>Friendly Book</h1>
-	</header>
-	<div class="cards">
-	<div class="unitario"><img src="assets/4.png" alt="pessoa cabelo enrrolados vermelhos e pele morena clara">
-		<h3>Kelvin Costa</h3>
-		<h4>@costa</h4>
-		<h4>140 seguidores 207 seguindo</h4>
-	</div>
-	<div><h3>Charles Santos</h3></div>
-	<div><h3>Anna Bia</h3></div>
-	<div><h3>Mario Hisashi</h3></div>
-	<div><h3>Kelvin Costa</h3></div>
-	<div><h3>Charles Santos</h3></div>
-	<div><h3>Anna Bia</h3></div>
-	<div><h3>Mario Hisashi</h3></div>
-</div>
-</main>
+      <button class="btn-sign-out">SAIR</button>
+    </div>
+    <main>
+      <h1>Confira os pets disponíveis para adoção</h1>
+      <div class="content-cards">
+        <div class="card">
+          <img src="assets/1.jpg" />
+          <strong>Lulu</strong>
+          <span>SRD</span>
 
-</div>
-</body>
+          <div>
+            <span>Preto e caramelo</span>
+            <span>Brincalhão, gosta de correr e de crianças</span>
+          </div>
+        </div>
 
+        <div class="card">
+          <img src="assets/2.png" />
+          <strong>Lua</strong>
+          <span>SRD</span>
+
+          <div>
+            <span>Caramelo</span>
+            <span>Carinhosa, comilona e adora colo</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/3.png" />
+          <strong>Tom Cruise </strong>
+          <span>SRD</span>
+
+          <div>
+            <span>Preto e branco</span>
+            <span>Adora bolinhas e brincar de pega-pega</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/4.jpg" />
+          <strong>Pig</strong>
+          <span>SRD</span>
+
+          <div>
+            <span>Rosa e preto</span>
+            <span>Carinhosa, adora carinho e brincar na água</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/5.jpg" />
+          <strong>Chefão</strong>
+          <span>American Game</span>
+
+          <div>
+            <span>Marron e dourado</span>
+            <span>Territorialista, gosta de correr e cantar</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/6.jpg" />
+          <strong>Paola Bracho</strong>
+          <span>SRD</span>
+
+          <div>
+            <span>Preto e branco</span>
+            <span>Adora outros animais e crianças</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/1.jpg" />
+          <strong>Lulu</strong>
+          <span>SRD</span>
+
+          <div>
+            <span>Preto e caramelho</span>
+            <span>Brincalhão, gosta de correr e de crianças</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/1.jpg" />
+          <strong>Lulu</strong>
+          <span>SRD</span>
+
+          <div>
+            <span>Preto e caramelho</span>
+            <span>Brincalhão, gosta de correr e de crianças</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
