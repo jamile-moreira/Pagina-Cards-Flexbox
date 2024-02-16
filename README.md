@@ -1,3 +1,5 @@
+<img src="https://github.com/jamile-moreira/Pagina-Cards-Flexbox/assets/102548113/680f63dc-8245-4bd1-befd-c06e17d08a88"/>
+
 🎉 **Bem-vindo ao meu humilde projeto** 🚀
 
 Este projeto é um exemplo interativo para demonstrar o uso de HTML e CSS! Aqui você encontrará informações sobre o projeto, as ferramentas utilizadas e instruções sobre como executá-lo em seu ambiente local.
